@@ -58,7 +58,7 @@ begin
 Bit0: Full_Adder
 		port map (Ain => Ain(0),
 					 Bin => Bin(0),
-					 Cin => '0',
+					 Cin => Cin,
 					 Cout => L,
 --					 Cout => Cout(0),
 					 Sum => Sum(0));
@@ -87,7 +87,7 @@ Bit3: Full_Adder
 --					 Cin => Cout(2),
 					 Cin => N,
 --					 Cout => Cout(3),
-					 Cout => P,
+					 Cout => Cout,
 					 Sum => Sum(3));
 
 

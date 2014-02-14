@@ -107,7 +107,7 @@ BEGIN
 			integer'image(to_integer(unsigned((Ain + Bin)))) & "for A = " &
 			integer'image(to_integer(unsigned((Ain)))) & "for B = " &
 			integer'image(to_integer(unsigned((Bin)))) & ", but was " &
-			integer'image(to_ingeter(unsigned((Sum)))) severity ERROR;	
+			integer'image(to_integer(unsigned((Sum)))) severity ERROR;	
 		--increment B	
 		Bin <= Bin + "0001";
 		end loop;

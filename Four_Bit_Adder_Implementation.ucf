@@ -1,0 +1,20 @@
+# On the Nexys 2 board, pin numbers are given in (parenthesis),
+# and item names are given withOUT parenthesis.
+# Slide Switches - INPUTS
+NET "Ain<0>" LOC = "G18"; #Type = INPUT, Sch name = SW0
+NET "Ain<1>" LOC = "H18"; #Type = INPUT, Sch name = SW1
+NET "Ain<2>" LOC = "K18"; #Type = INPUT, Sch name = SW2
+NET "Ain<3>" LOC = "K17"; #Type = INPUT, Sch name = SW3
+NET "Bin<0>" LOC = "L14"; #Type = INPUT, Sch name = SW4
+NET "Bin<1>" LOC = "L13"; #Type = INPUT, Sch name = SW5
+NET "Bin<2>" LOC = "N17"; #Type = INPUT, Sch name = SW6
+NET "Bin<3>" LOC = "R17"; #Type = INPUT, Sch name = SW7
+
+# LED light for the last carry out
+NET "Cout" LOC = "E17"; #Type = OUTPUT, Sch name = LD4
+# LED lights - OUTPUTS
+NET "Sum<0>" LOC = "J14"; #Type = OUTPUT, Sch name = LD0
+NET "Sum<1>" LOC = "J15"; #Type = OUTPUT, Sch name = LD1
+NET "Sum<2>" LOC = "K15"; #Type = OUTPUT, Sch name = LD2
+NET "Sum<3>" LOC = "K14"; #Type = OUTPUT, Sch name = LD3
+
