@@ -10,8 +10,9 @@ Four-Bit Adder: For the four-bit adder, my general plan was to "chain" four Full
 
 UCF File: After verifying that my code was syntax-error free, I created a [.ucf file](https://github.com/JasonPluger/ECE281_Lab2/blob/master/Four_Bit_Adder_Implementation.ucf "implementation file") that programmed my .vhd file onto the Nexys 2 FPGA. 
 
-####Full Adder Waveform
-[Waveform Screencapture](https://github.com/JasonPluger/ECE281_Lab2/blob/master/full_adder.JPG "Waveform")
+####Waveforms
+[Full Adder Waveform](https://github.com/JasonPluger/ECE281_Lab2/blob/master/full_adder.JPG "full adder")
+[Four Bit Adder Waveform](https://github.com/JasonPluger/ECE281_Lab2/blob/master/four_bit_adder_waveform.JPG "four bit adder")
 
 ####Full Adder Schematic
 [Schematic](https://github.com/JasonPluger/ECE281_Lab2/blob/master/schematic.jpg "Schematic")
