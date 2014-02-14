@@ -22,6 +22,6 @@ UCF File: After verifying that my code was syntax-error free, I created a [.ucf 
 [Table](https://github.com/JasonPluger/ECE281_Lab2/blob/master/truth_table.jpg "Truth table and more")
 
 
-I successfully demonstrated the basic 4-bit adder functionality with a carry-out indicator, but not overflow indicator to Dr. Neebel on 14Feb14 at 1420.
+I successfully demonstrated the basic 4-bit adder functionality with a carry-out indicator, but not overflow indicator, to Dr. Neebel on 14Feb14 at 1420.
 
 
