@@ -1,14 +1,22 @@
 ----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
+-- Company: USAF Academy ECE 281
+-- Engineer: Jason G. Pluger
 -- 
 -- Create Date:    13:54:56 02/10/2014 
 -- Design Name: 
 -- Module Name:    Four_Bit_Adder - Behavioral 
 -- Project Name: 
--- Target Devices: 
+-- Target Devices: Nexsys 2 FPGA
 -- Tool versions: 
--- Description: 
+-- Description: This vhdl code programs an FPGA to do 4-bit addition of
+-- two four bit numbers.
+-- Documentation: 	Looked at this website: http://www.ics.uci.edu/~jmoorkan/vhdlref/ifs.html to help determine syntax
+-- 					of if statement in VHDL.
+--							I looked at this website: http://www.seas.upenn.edu/~ese171/vhdl/VHDLTestbench.pdf to help me
+--						determine the syntax of the loops for the 4-bit testbench
+--							13Feb14 - C3C Bolinger helped me fix errors in my code by helping me determine that the
+-- 					Bit0 Cin should be assigned to Cin when doing port maps, as well as the Bit3
+--						Cout should be assigned to Cout to get the program to compile and synthesize correctly.
 --
 -- Dependencies: 
 --
