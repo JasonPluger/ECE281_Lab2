@@ -12,6 +12,7 @@ UCF File: After verifying that my code was syntax-error free, I created a [.ucf 
 
 ####Waveforms
 [Full Adder Waveform](https://github.com/JasonPluger/ECE281_Lab2/blob/master/full_adder.JPG "full adder")
+
 [Four Bit Adder Waveform](https://github.com/JasonPluger/ECE281_Lab2/blob/master/four_bit_adder_waveform.JPG "four bit adder")
 
 ####Full Adder Schematic
