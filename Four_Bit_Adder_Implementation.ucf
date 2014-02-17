@@ -9,9 +9,11 @@ NET "Bin<0>" LOC = "L14"; #Type = INPUT, Sch name = SW4
 NET "Bin<1>" LOC = "L13"; #Type = INPUT, Sch name = SW5
 NET "Bin<2>" LOC = "N17"; #Type = INPUT, Sch name = SW6
 NET "Bin<3>" LOC = "R17"; #Type = INPUT, Sch name = SW7
+#Program the button to check for desired subtraction
+NET "neg" LOC = "H13"; #Type = INPUT, Sch name = BTN3
 
 # LED light for the last carry out
-NET "Cout" LOC = "E17"; #Type = OUTPUT, Sch name = LD4
+#NOT ACTUALLY OVERFLOW - NET "Cout" LOC = "E17"; #Type = OUTPUT, Sch name = LD4
 # LED lights - OUTPUTS
 NET "Sum<0>" LOC = "J14"; #Type = OUTPUT, Sch name = LD0
 NET "Sum<1>" LOC = "J15"; #Type = OUTPUT, Sch name = LD1
